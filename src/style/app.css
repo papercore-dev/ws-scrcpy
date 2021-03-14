@@ -104,17 +104,23 @@ body.stream {
 }
 
 .video-layer {
+    min-width:100vw!important;
+    min-height:100vh!important;
     position: absolute;
     z-index: 0;
 }
 
 .touch-layer {
+    min-width:100vw!important;
+    min-height:100vh!important;
     position: absolute;
     z-index: 1;
 }
 
 .video {
     float: right;
+    min-width:100vw!important;
+    min-height:100vh!important;
     max-height: 100%;
     max-width: 100%;
     background-color: #000000;
@@ -122,6 +128,7 @@ body.stream {
 
 
 .control-buttons-list {
+    display:none;
     float: right;
     width: 3.715rem;
     background-color: var(--control-buttons-bg-color);
